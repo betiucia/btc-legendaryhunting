@@ -1,0 +1,360 @@
+/* style.css - Western 1900s Theme - Responsivo com Fontes Personalizadas e Texto Centralizado */
+
+/* Definição da fonte local Crock */
+@font-face {
+    font-family: 'Crock';
+    /* Nome que usaremos para a fonte no CSS */
+    src: url('fonts/crock.ttf') format('truetype');
+    /* Caminho para o arquivo da fonte */
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Crock', sans-serif;
+    /* Fonte Crock como padrão para todo o corpo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+    padding: 10px;
+    text-align: center;
+    /* Centraliza o texto por padrão no body, pode ser sobrescrito */
+}
+
+.nui-active-body-background {
+    background-color: #4a3b32;
+}
+
+#nui-container {
+    width: 90vw;
+    max-width: 480px;
+    height: auto;
+    min-height: 400px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card-stack {
+    position: relative;
+    width: 100%;
+    max-width: 380px;
+    height: 550px;
+    margin: auto;
+}
+
+.no-missions-message {
+    font-family: 'Crock', sans-serif;
+    /* Fonte Crock */
+    color: #f5e8c8;
+    font-size: clamp(1.2em, 4vw, 1.5em);
+    padding: 20px;
+    text-align: center;
+    /* Já estava centralizado */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+
+.mission-card {
+    /* background-color: #f5e8c8;
+    border: 3px solid #5a3a22;
+    border-radius: 8px; */
+    background-color: transparent;
+    background-image: url('images/background.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 350px;
+    height: 100%;
+    max-height: 520px;
+    padding: clamp(15px, 4vw, 20px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Isso já centraliza os itens flex (como título, imagem, botão) horizontalmente */
+    text-align: center;
+    /* Garante que o texto dentro dos elementos do card seja centralizado */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    transition: transform 0.5s cubic-bezier(0.35, 0.9, 0.25, 1), opacity 0.45s ease-out;
+    user-select: none;
+    overflow: hidden;
+    color: #3b2a1a;
+    font-family: 'Crock', sans-serif;
+    /* Fonte Crock para os cards */
+}
+
+.card-title {
+    font-family: 'Crock', sans-serif;
+    font-size: clamp(1.8em, 5vw, 2.2em);
+    color: #52391a;
+    /* Cor do texto do título */
+    word-break: break-word;
+    text-align: center;
+    width: 90%;
+    /* Define a largura do bloco do título para as linhas não tocarem as bordas do card */
+    margin-left: auto;
+    /* Centraliza o bloco do título */
+    margin-right: auto;
+    /* Centraliza o bloco do título */
+    padding-top: 8px;
+    /* Espaço entre a linha superior e o texto do título */
+    margin-top: 5px;
+    /* Espaço acima da linha superior do título */
+}
+
+.card-image-container {
+    width: 100%;
+    height: 180px;
+    max-height: 35vh;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-top: 2px solid #52391a;
+    border-bottom: 2px solid #52391a;
+    /* border: 2px dashed #7a5a32;
+    border-radius: 4px; */
+    /* background-color: #d8c8a8; */
+    background-color: transparent;
+    padding: 10px;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 0;
+}
+
+.card-level-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 25px;
+    font-family: 'Crock', sans-serif;
+    /* Fonte Crock para as estrelas, se o caractere for da fonte */
+}
+
+.star {
+    font-size: clamp(1.5em, 4vw, 1.8em);
+    color: #b8860b;
+    margin: 0 2px;
+    line-height: 1;
+}
+
+.star.empty {
+    color: #9e8a70;
+}
+
+.card-desc {
+    font-family: 'Crock', sans-serif;
+    /* Fonte Crock */
+    font-size: clamp(0.85em, 2.5vw, 0.95em);
+    line-height: 1.5;
+    margin-bottom: 15px;
+    flex-grow: 1;
+    overflow-y: auto;
+    /* Mantém a funcionalidade de scroll */
+    color: #402f1f;
+    text-align: center;
+    /* Alterado de justify para center */
+    width: 100%;
+    /* Linha fina acima, usando a cor do texto do título */
+    background-color: transparent;
+    padding: 8px;
+    /* Adicionado um padding interno para o texto não colar nas bordas */
+
+    /* Oculta a barra de rolagem em navegadores WebKit (Chrome, Safari, Edge) */
+    -ms-overflow-style: none;
+    /* IE e Edge legado */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+/* Oculta especificamente a barra de rolagem para navegadores WebKit */
+.card-desc::-webkit-scrollbar {
+    display: none;
+}
+
+.accept-mission-btn {
+    font-family: 'Crock', sans-serif;
+    /* Fonte Crock */
+    background-color: #6b4a2f;
+    color: #f5e8c8;
+    border: 2px solid #4a2c1a;
+    padding: clamp(10px, 2.5vw, 12px) clamp(20px, 5vw, 24px);
+    font-size: clamp(1em, 3vw, 1.1em);
+    font-weight: normal;
+    /* Crock pode não ter variações de peso, ajuste se necessário */
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    text-shadow: 1px 1px 0px #4a2c1a;
+    width: auto;
+    max-width: 90%;
+    text-align: center;
+    /* Garante centralização do texto do botão */
+}
+
+.accept-mission-btn:hover {
+    background-color: #b68550;
+    color: #fff5e1;
+    border-color: #3b2a1a;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.4);
+}
+
+.accept-mission-btn:active {
+    transform: translateY(1px) scale(0.98);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.mission-card.current {
+    transform: translateX(-50%) translateY(-50%) scale(1) rotate(0deg);
+    z-index: 3;
+    opacity: 1;
+}
+
+.mission-card.next {
+    transform: translateX(calc(-50% + 25px)) translateY(calc(-50% + 15px)) scale(0.92) rotate(3deg);
+    z-index: 2;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.mission-card.next:hover {
+    transform: translateX(calc(-50% + 25px)) translateY(calc(-50% + 10px)) scale(0.94) rotate(3deg);
+    opacity: 1;
+}
+
+.mission-card.after-next {
+    transform: translateX(calc(-50% + 50px)) translateY(calc(-50% + 30px)) scale(0.84) rotate(6deg);
+    z-index: 1;
+    opacity: 0.75;
+}
+
+.mission-card.animate-out-previous {
+    transform: translateX(calc(-50% - 150%)) translateY(calc(-50% + 30px)) scale(0.7) rotate(-12deg) !important;
+    opacity: 0 !important;
+    z-index: 0 !important;
+}
+
+@media (max-width: 768px) {
+    #card-stack {
+        height: 520px;
+    }
+
+    .card-image-container {
+        height: 160px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 5px;
+    }
+
+    #nui-container {
+        width: 95vw;
+    }
+
+    #card-stack {
+        max-width: 100%;
+        height: clamp(480px, 80vh, 500px);
+    }
+
+    .mission-card {
+        padding: 10px;
+    }
+
+    .card-title {
+        font-size: clamp(1.6em, 6vw, 2em);
+        padding-top: 6px;
+        padding-bottom: 6px;
+        margin-bottom: 12px;
+    }
+
+    .card-image-container {
+        height: 140px;
+    }
+
+    .card-desc {
+        font-size: clamp(0.8em, 3vw, 0.9em);
+        line-height: 1.4;
+        padding: 6px;
+        /* Ajusta o padding para telas menores */
+    }
+
+    .accept-mission-btn {
+        padding: 8px 16px;
+        font-size: clamp(0.9em, 3.5vw, 1em);
+    }
+
+    .mission-card.next {
+        transform: translateX(calc(-50% + 15px)) translateY(calc(-50% + 10px)) scale(0.90) rotate(2deg);
+    }
+
+    .mission-card.next:hover {
+        transform: translateX(calc(-50% + 15px)) translateY(calc(-50% + 8px)) scale(0.92) rotate(2deg);
+    }
+
+    .mission-card.after-next {
+        transform: translateX(calc(-50% + 30px)) translateY(calc(-50% + 20px)) scale(0.80) rotate(4deg);
+    }
+}
+
+@media (max-height: 500px) and (max-width: 480px) {
+    #card-stack {
+        height: 90vh;
+    }
+
+    .card-image-container {
+        height: 120px;
+    }
+
+    .card-level-container {
+        margin-bottom: 5px;
+        height: 20px;
+    }
+
+    .star {
+        font-size: clamp(1.2em, 3.5vw, 1.5em);
+    }
+
+    .card-desc {
+        margin-bottom: 10px;
+        padding: 5px;
+        /* Ajusta o padding para telas muito pequenas */
+    }
+}
