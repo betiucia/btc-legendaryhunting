@@ -177,7 +177,7 @@ RegisterNetEvent('btc-legendaryhunting:server:StartMissionsendToDiscord',
 RegisterNetEvent('btc-legendaryhunting:server:FinishMissionsendToDiscord', function(source, missionType, item)
     local src = source
     local firstname, lastname = BtcCore.framework.getName(src)
-    local citizenid = BtcCore.framwork.getCitizenID(src)
+    local citizenid = BtcCore.framework.getCitizenID(src)
     local label = missionType
     local title = locale[53]
 
@@ -220,10 +220,8 @@ end)
 
 RegisterNetEvent('btc-legendaryhunting:server:SellsendToDiscord', function(source, item, reward)
     local src = source
-    local Player = RSGCore.Functions.GetPlayer(src)
-    local firstname = Player.PlayerData.charinfo.firstname -- primeiro nome
-    local lastname = Player.PlayerData.charinfo.lastname   -- segundo nome
-    local citizenid = Player.PlayerData.citizenid
+    local firstname, lastname = BtcCore.framework.getName(src)
+    local citizenid = BtcCore.framework.getCitizenID(src)
     local title = 'BTC-LegendaryHunting'
     local embed = {
         {
