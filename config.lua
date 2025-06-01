@@ -173,195 +173,195 @@ Config.zones = {
             -- vector4(-6097.19, -3375.83, 22.82, 77.22),
         }
     },
-    -- {
-    --     zone = 2,
-    --     coords = {
-    --         vector4(-4796.84, -2397.45, 7.83, 0.1), --- DON'T TOUCH!
-    --         ---Adicione mais porém proximo a primeira coordenada
-    --     },
-    -- },
-    -- {
-    --     zone = 3,
-    --     coords = {
-    --         vector4(-4013.84, -3518.40, 47.19, 0.1), --- DON'T TOUCH!
-    --         ---Adicione mais porém proximo a primeira coordenada
-    --     },
-    -- },
-    -- {
-    --     zone = 4,
-    --     coords = {
-    --         vector4(-2882.20, -2387.66, 72.24, 0.1), --- DON'T TOUCH!
-    --         ---Adicione mais porém proximo a primeira coordenada
-    --     },
-    -- },
-    -- {
-    --     zone = 5,
-    --     coords = {
-    --         vector4(-2039.58, -2785.12, 69.11, 0.1), --- DON'T TOUCH!
-    --         ---Adicione mais porém proximo a primeira coordenada
-    --     },
-    -- },
-    -- {
-    --     zone = 6,
-    --     coords = {
-    --         vector4(-2682.72, -1472.06, 147.18, 0.1), --- DON'T TOUCH!
-    --         ---Adicione mais porém proximo a primeira coordenada
-    --     },
-    -- },
-    -- {
-    --     zone = 7,
-    --     coords = {
-    --         vector4(-1083.08, -1710.34, 75.03, 0.1), --- DON'T TOUCH!
-    --         ---Adicione mais porém proximo a primeira coordenada
-    --     },
-    -- },
-    -- {
-    --     zone = 8,
-    --     coords = {
-    --         vector4(-2654.31, -439.72, 159.84, 0.1), --- DON'T TOUCH!
-    --         ---Adicione mais porém proximo a primeira coordenada
-    --     },
-    -- },
-    -- {
-    --     zone = 9,
-    --     coords = {
-    --         vector4(-1830.47, -1120.46, 88.31, 0.1), --- DON'T TOUCH!
-    --         ---Adicione mais porém proximo a primeira coordenada
-    --     },
-    -- },
-    -- {
-    --     zone = 10,
-    --     coords = {
-    --         vector4(52.39, -500.69, 60.62, 0.1), --- DON'T TOUCH!
-    --         ---Adicione mais porém proximo a primeira coordenada
-    --     },
-    -- },
-    -- {
-    --     zone = 11,
-    --     coords = {
-    --         vector4(-2358.97, 333.03, 215.72, 0.1), --- DON'T TOUCH!
-    --         ---Adicione mais porém proximo a primeira coordenada
-    --     },
-    -- },
-    -- {
-    --     zone = 12,
-    --     coords = {
-    --         vector4(-1433.82, 144.25, 90.32, 210.32), --- DON'T TOUCH!
-    --         ---Adicione mais porém proximo a primeira coordenada
-    --     },
-    -- },
-    -- {
-    --     zone = 13,
-    --     coords = {
-    --         vector4(-1897.03, 1701.23, 251.41, 0.1), --- DON'T TOUCH!
-    --         ---Adicione mais porém proximo a primeira coordenada
-    --     },
-    -- },
-    -- {
-    --     zone = 14,
-    --     coords = {
-    --         vector4(-1374.61, 2219.60, 316.39, 0.1), --- DON'T TOUCH!
-    --         ---Adicione mais porém proximo a primeira coordenada
-    --     },
-    -- },
-    -- {
-    --     zone = 15,
-    --     coords = {
-    --         vector4(-967.44, 1626.29, 247.27, 0.1), --- DON'T TOUCH!
-    --         ---Adicione mais porém proximo a primeira coordenada
-    --     },
-    -- },
-    -- {
-    --     zone = 16,
-    --     coords = {
-    --         vector4(810.68, 1495.87, 206.15, 37.36), --- DON'T TOUCH!
-    --         ---Adicione mais porém proximo a primeira coordenada
-    --     },
-    -- },
-    -- {
-    --     zone = 17,
-    --     coords = {
-    --         vector4(1499.16, 2070.64, 296.51, 261.56), --- DON'T TOUCH!
-    --         ---Adicione mais porém proximo a primeira coordenada
-    --     },
-    -- },
-    -- {
-    --     zone = 18,
-    --     coords = {
-    --         vector4(2394.88, 2019.12, 171.72, 0.1), --- DON'T TOUCH!
-    --         ---Adicione mais porém proximo a primeira coordenada
-    --     },
-    -- },
-    -- {
-    --     zone = 19,
-    --     coords = {
-    --         vector4(280.16, 1295.55, 198.09, 0.1), --- DON'T TOUCH!
-    --         ---Adicione mais porém proximo a primeira coordenada
-    --     },
-    -- },
-    -- {
-    --     zone = 20,
-    --     coords = {
-    --         vector4(1591.66, 1099.64, 186.21, 0.1), --- DON'T TOUCH!
-    --         ---Adicione mais porém proximo a primeira coordenada
-    --     },
-    -- },
-    -- {
-    --     zone = 21,
-    --     coords = {
-    --         vector4(299.49, 67.15, 104.09, 0.1), --- DON'T TOUCH!
-    --         ---Adicione mais porém proximo a primeira coordenada
-    --     },
-    -- },
-    -- {
-    --     zone = 22,
-    --     coords = {
-    --         vector4(2296.96, 512.78, 83.90, 0.1), --- DON'T TOUCH!
-    --         ---Adicione mais porém proximo a primeira coordenada
-    --     },
-    -- },
-    -- {
-    --     zone = 23,
-    --     coords = {
-    --         vector4(2619.66, 214.58, 63.16, 0.1), --- DON'T TOUCH!
-    --         ---Adicione mais porém proximo a primeira coordenada
-    --     },
-    -- },
-    -- {
-    --     zone = 24,
-    --     coords = {
-    --         vector4(892.76, -1241.87, 55.24, 0.1), --- DON'T TOUCH!
-    --         ---Adicione mais porém proximo a primeira coordenada
-    --     },
-    -- },
-    -- {
-    --     zone = 25,
-    --     coords = {
-    --         vector4(1755.00, -533.91, 44.65, 0.1), --- DON'T TOUCH!
-    --         ---Adicione mais porém proximo a primeira coordenada
-    --     },
-    -- },
-    -- {
-    --     zone = 26,
-    --     coords = {
-    --         vector4(2331.92, -805.24, 41.07, 0.1), --- DON'T TOUCH!
-    --         ---Adicione mais porém proximo a primeira coordenada
-    --     },
-    -- },
-    -- {
-    --     zone = 27,
-    --     coords = {
-    --         vector4(1225.64, -2208.79, 52.74, 0.1), --- DON'T TOUCH!
-    --         ---Adicione mais porém proximo a primeira coordenada
-    --     },
-    -- },
-    -- {
-    --     zone = 28,
-    --     coords = {
-    --         vector4(1950.99, -1675.86, 42.26, 0.1), --- DON'T TOUCH!
-    --         ---Adicione mais porém proximo a primeira coordenada
-    --     },
-    -- },
+    {
+        zone = 2,
+        coords = {
+            vector4(-4796.84, -2397.45, 7.83, 0.1), --- DON'T TOUCH!
+            ---Adicione mais porém proximo a primeira coordenada
+        },
+    },
+    {
+        zone = 3,
+        coords = {
+            vector4(-4013.84, -3518.40, 47.19, 0.1), --- DON'T TOUCH!
+            ---Adicione mais porém proximo a primeira coordenada
+        },
+    },
+    {
+        zone = 4,
+        coords = {
+            vector4(-2882.20, -2387.66, 72.24, 0.1), --- DON'T TOUCH!
+            ---Adicione mais porém proximo a primeira coordenada
+        },
+    },
+    {
+        zone = 5,
+        coords = {
+            vector4(-2039.58, -2785.12, 69.11, 0.1), --- DON'T TOUCH!
+            ---Adicione mais porém proximo a primeira coordenada
+        },
+    },
+    {
+        zone = 6,
+        coords = {
+            vector4(-2682.72, -1472.06, 147.18, 0.1), --- DON'T TOUCH!
+            ---Adicione mais porém proximo a primeira coordenada
+        },
+    },
+    {
+        zone = 7,
+        coords = {
+            vector4(-1083.08, -1710.34, 75.03, 0.1), --- DON'T TOUCH!
+            ---Adicione mais porém proximo a primeira coordenada
+        },
+    },
+    {
+        zone = 8,
+        coords = {
+            vector4(-2654.31, -439.72, 159.84, 0.1), --- DON'T TOUCH!
+            ---Adicione mais porém proximo a primeira coordenada
+        },
+    },
+    {
+        zone = 9,
+        coords = {
+            vector4(-1830.47, -1120.46, 88.31, 0.1), --- DON'T TOUCH!
+            ---Adicione mais porém proximo a primeira coordenada
+        },
+    },
+    {
+        zone = 10,
+        coords = {
+            vector4(52.39, -500.69, 60.62, 0.1), --- DON'T TOUCH!
+            ---Adicione mais porém proximo a primeira coordenada
+        },
+    },
+    {
+        zone = 11,
+        coords = {
+            vector4(-2358.97, 333.03, 215.72, 0.1), --- DON'T TOUCH!
+            ---Adicione mais porém proximo a primeira coordenada
+        },
+    },
+    {
+        zone = 12,
+        coords = {
+            vector4(-1433.82, 144.25, 90.32, 210.32), --- DON'T TOUCH!
+            ---Adicione mais porém proximo a primeira coordenada
+        },
+    },
+    {
+        zone = 13,
+        coords = {
+            vector4(-1897.03, 1701.23, 251.41, 0.1), --- DON'T TOUCH!
+            ---Adicione mais porém proximo a primeira coordenada
+        },
+    },
+    {
+        zone = 14,
+        coords = {
+            vector4(-1374.61, 2219.60, 316.39, 0.1), --- DON'T TOUCH!
+            ---Adicione mais porém proximo a primeira coordenada
+        },
+    },
+    {
+        zone = 15,
+        coords = {
+            vector4(-967.44, 1626.29, 247.27, 0.1), --- DON'T TOUCH!
+            ---Adicione mais porém proximo a primeira coordenada
+        },
+    },
+    {
+        zone = 16,
+        coords = {
+            vector4(810.68, 1495.87, 206.15, 37.36), --- DON'T TOUCH!
+            ---Adicione mais porém proximo a primeira coordenada
+        },
+    },
+    {
+        zone = 17,
+        coords = {
+            vector4(1499.16, 2070.64, 296.51, 261.56), --- DON'T TOUCH!
+            ---Adicione mais porém proximo a primeira coordenada
+        },
+    },
+    {
+        zone = 18,
+        coords = {
+            vector4(2394.88, 2019.12, 171.72, 0.1), --- DON'T TOUCH!
+            ---Adicione mais porém proximo a primeira coordenada
+        },
+    },
+    {
+        zone = 19,
+        coords = {
+            vector4(280.16, 1295.55, 198.09, 0.1), --- DON'T TOUCH!
+            ---Adicione mais porém proximo a primeira coordenada
+        },
+    },
+    {
+        zone = 20,
+        coords = {
+            vector4(1591.66, 1099.64, 186.21, 0.1), --- DON'T TOUCH!
+            ---Adicione mais porém proximo a primeira coordenada
+        },
+    },
+    {
+        zone = 21,
+        coords = {
+            vector4(299.49, 67.15, 104.09, 0.1), --- DON'T TOUCH!
+            ---Adicione mais porém proximo a primeira coordenada
+        },
+    },
+    {
+        zone = 22,
+        coords = {
+            vector4(2296.96, 512.78, 83.90, 0.1), --- DON'T TOUCH!
+            ---Adicione mais porém proximo a primeira coordenada
+        },
+    },
+    {
+        zone = 23,
+        coords = {
+            vector4(2619.66, 214.58, 63.16, 0.1), --- DON'T TOUCH!
+            ---Adicione mais porém proximo a primeira coordenada
+        },
+    },
+    {
+        zone = 24,
+        coords = {
+            vector4(892.76, -1241.87, 55.24, 0.1), --- DON'T TOUCH!
+            ---Adicione mais porém proximo a primeira coordenada
+        },
+    },
+    {
+        zone = 25,
+        coords = {
+            vector4(1755.00, -533.91, 44.65, 0.1), --- DON'T TOUCH!
+            ---Adicione mais porém proximo a primeira coordenada
+        },
+    },
+    {
+        zone = 26,
+        coords = {
+            vector4(2331.92, -805.24, 41.07, 0.1), --- DON'T TOUCH!
+            ---Adicione mais porém proximo a primeira coordenada
+        },
+    },
+    {
+        zone = 27,
+        coords = {
+            vector4(1225.64, -2208.79, 52.74, 0.1), --- DON'T TOUCH!
+            ---Adicione mais porém proximo a primeira coordenada
+        },
+    },
+    {
+        zone = 28,
+        coords = {
+            vector4(1950.99, -1675.86, 42.26, 0.1), --- DON'T TOUCH!
+            ---Adicione mais porém proximo a primeira coordenada
+        },
+    },
 }
 
 ---- Notificações

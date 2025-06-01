@@ -354,7 +354,7 @@ end
 -- No callback "acceptMission" (se você tiver um no Lua para quando uma missão é aceita pela NUI):
 RegisterNUICallback("acceptMission", function(data, cb)
     local missionValue = data.missionValue
-        FecharNuiCaca()
+    FecharNuiCaca()
     cb({ status = "ok" })
 
     if Config.playerSkills.use then
@@ -367,7 +367,7 @@ RegisterNUICallback("acceptMission", function(data, cb)
         end
     end
 
-        TriggerServerEvent('btc-legendaryhunting:server:startcooldownmission', missionValue)
+    TriggerServerEvent('btc-legendaryhunting:server:startcooldownmission', missionValue)
 end)
 
 RegisterNUICallback("closeNui", function(data, cb)
@@ -577,7 +577,6 @@ RegisterNetEvent('btc-legendaryhunting:client:startmission', function(missiontyp
         local distance = #(pedCoords - animalCoords)
 
         if IsEntityDead(npc) then
-            TriggerServerEvent('btc-legendaryhunting:server:givexp')
             if Config.UseItems then
                 InMission = false
                 EnableEagleeye(PlayerId(), false)
@@ -588,6 +587,9 @@ RegisterNetEvent('btc-legendaryhunting:client:startmission', function(missiontyp
                         isAnimalPromptUsed = true
                         TaskStartScenarioInPlace(ped, anim1, 0, true)
                         TriggerServerEvent('btc-legendaryhunting:server:additem', npcmodel)
+                        if Config.playerSkills then
+                            TriggerServerEvent('btc-legendaryhunting:server:givexp')
+                        end
                         Wait(5000)
                         ClearPedTasks(ped)
                         DeletePed(npc)
@@ -597,6 +599,9 @@ RegisterNetEvent('btc-legendaryhunting:client:startmission', function(missiontyp
                     end
                 end
             else
+                if Config.playerSkills then
+                    TriggerServerEvent('btc-legendaryhunting:server:givexp')
+                end
                 InMission = false
                 EnableEagleeye(PlayerId(), false)
                 break
