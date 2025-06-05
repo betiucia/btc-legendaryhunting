@@ -197,8 +197,6 @@ RegisterNetEvent('btc-legendaryhunting:server:FinishMissionsendToDiscord', funct
                 url = Config.UrlIconThumb,
             },
 
-            ["description"] = 'Informações:',
-
             fields = {
                 { name = locale[50], value = firstname .. ' ' .. lastname, inline = true },
                 { name = locale[51], value = citizenid,                    inline = true },

@@ -3,6 +3,28 @@
  1. **Primeiro** 
 
  Intale os itens em seu core: 
+
+
+ # Vorp
+INSERT IGNORE INTO `items` (`item`, `label`, `limit`, `can_remove`, `type`, `usable`, `groupid`, `metadata`, `desc`, `degradation`, `weight`) VALUES
+('legendarymap', 'Mapa de Animais Lendários', 100, 1, 'item_standard', 1, 1, 0, 'Um mapa onde podem ser anotados localizações de animais lendários.', 0, 0.125),
+('bearskin', 'Pele de Urso Lendário', 1, 1, 'item_standard', 0, 1, 0, 'Uma pele de animal lendário.', 0, 7.0),
+('beaverskin', 'Pele de Castor Lendário', 1, 1, 'item_standard', 0, 1, 0, 'Uma pele de animal lendário.', 0, 0.8),
+('buffaloskin', 'Pele de Bisão Lendário', 1, 1, 'item_standard', 0, 1, 0, 'Uma pele de animal lendário.', 0, 10.0),
+('alligatorskin', 'Pele de Alligator Lendário', 100, 1, 'item_standard', 1, 1, 0, 'Uma pele de animal lendário.', 0, 6.0),
+('mooseskin', 'Pele de Alce Lendário', 1, 1, 'item_standard', 0, 1, 0, 'Uma pele de animal lendário.', 0, 9.0),
+('boarskin', 'Pele de Javali Lendário', 1, 1, 'item_standard', 0, 1, 0, 'Uma pele de animal lendário.', 0, 2.5),
+('foxskin', 'Pele de Raposa Lendária', 1, 1, 'item_standard', 0, 1, 0, 'Uma pele de animal lendário.', 0, 0.4),
+('phanterskin', 'Pele de Pantera Lendária', 1, 1, 'item_standard', 0, 1, 0, 'Uma pele de animal lendário.', 0, 1.8),
+('wolfskin', 'Pele de Lobo Lendária', 1, 1, 'item_standard', 0, 1, 0, 'Uma pele de animal lendário.', 0, 1.25),
+('cougarskin', 'Pele de Puma Lendária', 1, 1, 'item_standard', 0, 1, 0, 'Uma pele de animal lendário.', 0, 1.8),
+('buckskin', 'Pele de Veado Lendário', 1, 1, 'item_standard', 0, 1, 0, 'Uma pele de animal lendário.', 0, 1.25),
+('elkskin', 'Pele de Wapiti Lendário', 1, 1, 'item_standard', 0, 1, 0, 'Uma pele de animal lendário.', 0, 4.5),
+('coyoteskin', 'Pele de Coiote Lendário', 1, 1, 'item_standard', 0, 1, 0, 'Uma pele de animal lendário.', 0, 0.7),
+('ramskin', 'Pele de Carneiro Selvagem Lendário', 1, 1, 'item_standard', 0, 1, 0, 'Uma pele de animal lendário.', 0, 2.0);
+
+
+ ### -------------------------------------------------------------------------------------- ##
  
  # RSG
 
@@ -26,7 +48,6 @@
     ramskin       = { name = 'ramskin', label = 'Pele de Carneiro Selvagem Lendário', weight = 2000, type = 'item', image = 'ramskin.png', unique = true, useable = false, shouldClose = true, description = 'Uma pele de animal lendário.' },                                   -- (Pele de carneiro selvagem grande, curtida)
 
    ```
-### PARA VORP É NECESSÁRIO CRIAR UM A UM NA DB
 
 ### 2.
 Em seu server.cfg instale de ensure nas dependências e após as dependencias no script:

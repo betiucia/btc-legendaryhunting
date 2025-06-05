@@ -4,10 +4,10 @@ Config = {}
 -- Webhook
 ---------------------------------
 Config.ServerName = 'BTC - Legendary Hunting'
-Config.UrlIcon = 'https://i.imgur.com/NWr0YFA.png'
-Config.UrlIconThumb = 'https://i.imgur.com/NWr0YFA.png'
+Config.UrlIcon = 'https://i.postimg.cc/mDfmzj3D/Gemini-Generated-Image-b28dslb28dslb28d.png'
+Config.UrlIconThumb = 'https://i.postimg.cc/mDfmzj3D/Gemini-Generated-Image-b28dslb28dslb28d.png'
 Config.WebhookColor = 3037669 -- Decimal Color
-Config.WebhookUrl = ''
+Config.WebhookUrl = 'https://discord.com/api/webhooks/1379241963726835723/wLaHQKVb64r81ZxsI6PjY-jWRyGqO2XM4xsGy2weqYDBjaJncAMvIL9yyAId8OH16R_E'
 
 ------- Geral
 Config.DevMode = true
@@ -159,7 +159,7 @@ Config.Animals = {
 
 Config.playerSkills = {
     use = true, -- You need Btc-playerskills
-    exp = 15, -- quanto de XP ganha por caçar um animal -- LVL MAXIMO É 5
+    exp = 50, -- quanto de XP ganha por caçar um animal -- LVL MAXIMO É 5
 }
 
 Config.zones = {
